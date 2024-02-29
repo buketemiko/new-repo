@@ -20,3 +20,4 @@ class CachedValue<T> where T : class
 				} else {
 					return CalculateProc ();
 				}
+//yes

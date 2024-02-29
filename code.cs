@@ -21,3 +21,9 @@ class CachedValue<T> where T : class
 					return CalculateProc ();
 				}
 //yes
+	public override void WriteHeaders ()
+		{
+			headers.WriteLine ();
+			WriteHeadersComment ();
+			base.WriteHeaders ();
+		}
